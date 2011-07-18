@@ -1,4 +1,6 @@
 HelloWorld::Application.routes.draw do
+  resources :posts
+
   get "say/hello"
 
   get "say/goodbye"
